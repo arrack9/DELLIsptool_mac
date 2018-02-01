@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120AB9A31C166A29008566EC /* Informsg.png in Resources */ = {isa = PBXBuildFile; fileRef = 120AB9A21C166A29008566EC /* Informsg.png */; };
+		120AB9A51C168480008566EC /* Errormsg.png in Resources */ = {isa = PBXBuildFile; fileRef = 120AB9A41C168480008566EC /* Errormsg.png */; };
+		1211B4CA1C02B3150050C522 /* closewin_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1211B4C91C02B3150050C522 /* closewin_1.png */; };
+		1211B4CC1C02B3290050C522 /* closewin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1211B4CB1C02B3290050C522 /* closewin.png */; };
+		1211B4D21C02BC180050C522 /* zoomwin_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1211B4D11C02BC180050C522 /* zoomwin_1.png */; };
+		1211B4D41C02BC240050C522 /* helpwin_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1211B4D31C02BC240050C522 /* helpwin_1.png */; };
+		1223998B1C01C4DA00A6FBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223998A1C01C4DA00A6FBE5 /* AppDelegate.swift */; };
+		1223998F1C01C4DA00A6FBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223998E1C01C4DA00A6FBE5 /* Assets.xcassets */; };
+		122399A51C01C5ED00A6FBE5 /* C3_spin_50_blu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1223999A1C01C5ED00A6FBE5 /* C3_spin_50_blu.png */; };
+		122399A61C01C5ED00A6FBE5 /* C3_spin_50_bluonwht.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1223999B1C01C5ED00A6FBE5 /* C3_spin_50_bluonwht.gif */; };
+		122399A71C01C5ED00A6FBE5 /* C3_spin_50_bluonwht_transp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1223999C1C01C5ED00A6FBE5 /* C3_spin_50_bluonwht_transp.gif */; };
+		122399AA1C01C5ED00A6FBE5 /* mac_Close.png in Resources */ = {isa = PBXBuildFile; fileRef = 1223999F1C01C5ED00A6FBE5 /* mac_Close.png */; };
+		122399AB1C01C5ED00A6FBE5 /* mac_Close1.png in Resources */ = {isa = PBXBuildFile; fileRef = 122399A01C01C5ED00A6FBE5 /* mac_Close1.png */; };
+		122399AC1C01C5ED00A6FBE5 /* mac_Infor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 122399A11C01C5ED00A6FBE5 /* mac_Infor1.png */; };
+		122399AD1C01C5ED00A6FBE5 /* mac_Logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 122399A21C01C5ED00A6FBE5 /* mac_Logo1.png */; };
+		122399AE1C01C5ED00A6FBE5 /* mac_X1.png in Resources */ = {isa = PBXBuildFile; fileRef = 122399A31C01C5ED00A6FBE5 /* mac_X1.png */; };
+		122399AF1C01C5ED00A6FBE5 /* mac_Zoom1.png in Resources */ = {isa = PBXBuildFile; fileRef = 122399A41C01C5ED00A6FBE5 /* mac_Zoom1.png */; };
+		122CB06F1C0449A0008A48F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CB06E1C0449A0008A48F4 /* ViewController.swift */; };
+		1264C9221C0821A6000242E0 /* IspMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264C9211C0821A6000242E0 /* IspMsg.swift */; };
+		12E790A21C252C6A006364E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12E790A41C252C6A006364E2 /* InfoPlist.strings */; };
+		12E7933B1C2535B6006364E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E793391C2535B6006364E2 /* Main.storyboard */; };
+		187FEC341C1EC34C00B35656 /* HID PnP.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FEC2F1C1EC34C00B35656 /* HID PnP.m */; };
+		187FEC351C1EC34C00B35656 /* hid_MACOSX.c in Sources */ = {isa = PBXBuildFile; fileRef = 187FEC301C1EC34C00B35656 /* hid_MACOSX.c */; };
+		187FEC361C1EC34C00B35656 /* ISP.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FEC331C1EC34C00B35656 /* ISP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120AB9A21C166A29008566EC /* Informsg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Informsg.png; sourceTree = "<group>"; };
+		120AB9A41C168480008566EC /* Errormsg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Errormsg.png; sourceTree = "<group>"; };
+		1211B4C91C02B3150050C522 /* closewin_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closewin_1.png; sourceTree = "<group>"; };
+		1211B4CB1C02B3290050C522 /* closewin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closewin.png; sourceTree = "<group>"; };
+		1211B4D11C02BC180050C522 /* zoomwin_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomwin_1.png; sourceTree = "<group>"; };
+		1211B4D31C02BC240050C522 /* helpwin_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpwin_1.png; sourceTree = "<group>"; };
+		1215750A1C07EC1000797891 /* DELLIsptool_mac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DELLIsptool_mac-Bridging-Header.h"; sourceTree = "<group>"; };
+		122399871C01C4DA00A6FBE5 /* DELLIsptool_mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DELLIsptool_mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1223998A1C01C4DA00A6FBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1223998E1C01C4DA00A6FBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		122399931C01C4DA00A6FBE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1223999A1C01C5ED00A6FBE5 /* C3_spin_50_blu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C3_spin_50_blu.png; sourceTree = "<group>"; };
+		1223999B1C01C5ED00A6FBE5 /* C3_spin_50_bluonwht.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = C3_spin_50_bluonwht.gif; sourceTree = "<group>"; };
+		1223999C1C01C5ED00A6FBE5 /* C3_spin_50_bluonwht_transp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = C3_spin_50_bluonwht_transp.gif; sourceTree = "<group>"; };
+		1223999F1C01C5ED00A6FBE5 /* mac_Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac_Close.png; sourceTree = "<group>"; };
+		122399A01C01C5ED00A6FBE5 /* mac_Close1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac_Close1.png; sourceTree = "<group>"; };
+		122399A11C01C5ED00A6FBE5 /* mac_Infor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac_Infor1.png; sourceTree = "<group>"; };
+		122399A21C01C5ED00A6FBE5 /* mac_Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac_Logo1.png; sourceTree = "<group>"; };
+		122399A31C01C5ED00A6FBE5 /* mac_X1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac_X1.png; sourceTree = "<group>"; };
+		122399A41C01C5ED00A6FBE5 /* mac_Zoom1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac_Zoom1.png; sourceTree = "<group>"; };
+		122CB06E1C0449A0008A48F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1264C9211C0821A6000242E0 /* IspMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IspMsg.swift; sourceTree = "<group>"; };
+		12746BA31C2545070082BB00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1297596A1C254918002473DF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1297596B1C254928002473DF /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1297596D1C254C7D002473DF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1297596E1C254C89002473DF /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		129759701C254F62002473DF /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129759711C254F72002473DF /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = pt; path = pt.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CC0AA01C2551FD007AC5F2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12CC0AA11C25521B007AC5F2 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CC0AA31C2553E0007AC5F2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12CC0AA41C2553F7007AC5F2 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CC0AA71C259446007AC5F2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		12CC0AA81C259447007AC5F2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		12CC0AA91C259473007AC5F2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		12CC0AAA1C259474007AC5F2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		12CC0AAB1C259485007AC5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CC0AAC1C2594B3007AC5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12CC0AAD1C2594E9007AC5F2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		12CC0AAE1C2594EA007AC5F2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		12E790A51C252C6D006364E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12E790A71C252CAF006364E2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12E790A91C252F6F006364E2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		187FEC2E1C1EC34C00B35656 /* HID PnP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HID PnP.h"; path = "DELLIsptool_mac/HID PnP.h"; sourceTree = "<group>"; };
+		187FEC2F1C1EC34C00B35656 /* HID PnP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HID PnP.m"; path = "DELLIsptool_mac/HID PnP.m"; sourceTree = "<group>"; };
+		187FEC301C1EC34C00B35656 /* hid_MACOSX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hid_MACOSX.c; path = DELLIsptool_mac/hid_MACOSX.c; sourceTree = "<group>"; };
+		187FEC311C1EC34C00B35656 /* hid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hid.h; path = DELLIsptool_mac/hid.h; sourceTree = "<group>"; };
+		187FEC321C1EC34C00B35656 /* ISP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISP.h; path = DELLIsptool_mac/ISP.h; sourceTree = "<group>"; };
+		187FEC331C1EC34C00B35656 /* ISP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISP.m; path = DELLIsptool_mac/ISP.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		122399841C01C4DA00A6FBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1223997E1C01C4DA00A6FBE5 = {
+			isa = PBXGroup;
+			children = (
+				187FEC2D1C1EC2AD00B35656 /* ISP */,
+				122399991C01C5ED00A6FBE5 /* Resource */,
+				122399891C01C4DA00A6FBE5 /* DELLIsptool_mac */,
+				122399881C01C4DA00A6FBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		122399881C01C4DA00A6FBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				122399871C01C4DA00A6FBE5 /* DELLIsptool_mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122399891C01C4DA00A6FBE5 /* DELLIsptool_mac */ = {
+			isa = PBXGroup;
+			children = (
+				12E793391C2535B6006364E2 /* Main.storyboard */,
+				122CB06E1C0449A0008A48F4 /* ViewController.swift */,
+				1223998A1C01C4DA00A6FBE5 /* AppDelegate.swift */,
+				1223998E1C01C4DA00A6FBE5 /* Assets.xcassets */,
+				122399931C01C4DA00A6FBE5 /* Info.plist */,
+				1215750A1C07EC1000797891 /* DELLIsptool_mac-Bridging-Header.h */,
+				1264C9211C0821A6000242E0 /* IspMsg.swift */,
+				12E790A41C252C6A006364E2 /* InfoPlist.strings */,
+			);
+			path = DELLIsptool_mac;
+			sourceTree = "<group>";
+		};
+		122399991C01C5ED00A6FBE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				120AB9A41C168480008566EC /* Errormsg.png */,
+				120AB9A21C166A29008566EC /* Informsg.png */,
+				1211B4D31C02BC240050C522 /* helpwin_1.png */,
+				1211B4D11C02BC180050C522 /* zoomwin_1.png */,
+				1211B4CB1C02B3290050C522 /* closewin.png */,
+				1211B4C91C02B3150050C522 /* closewin_1.png */,
+				1223999A1C01C5ED00A6FBE5 /* C3_spin_50_blu.png */,
+				1223999B1C01C5ED00A6FBE5 /* C3_spin_50_bluonwht.gif */,
+				1223999C1C01C5ED00A6FBE5 /* C3_spin_50_bluonwht_transp.gif */,
+				1223999F1C01C5ED00A6FBE5 /* mac_Close.png */,
+				122399A01C01C5ED00A6FBE5 /* mac_Close1.png */,
+				122399A11C01C5ED00A6FBE5 /* mac_Infor1.png */,
+				122399A21C01C5ED00A6FBE5 /* mac_Logo1.png */,
+				122399A31C01C5ED00A6FBE5 /* mac_X1.png */,
+				122399A41C01C5ED00A6FBE5 /* mac_Zoom1.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		187FEC2D1C1EC2AD00B35656 /* ISP */ = {
+			isa = PBXGroup;
+			children = (
+				187FEC2E1C1EC34C00B35656 /* HID PnP.h */,
+				187FEC2F1C1EC34C00B35656 /* HID PnP.m */,
+				187FEC301C1EC34C00B35656 /* hid_MACOSX.c */,
+				187FEC311C1EC34C00B35656 /* hid.h */,
+				187FEC321C1EC34C00B35656 /* ISP.h */,
+				187FEC331C1EC34C00B35656 /* ISP.m */,
+			);
+			name = ISP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		122399861C01C4DA00A6FBE5 /* DELLIsptool_mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122399961C01C4DA00A6FBE5 /* Build configuration list for PBXNativeTarget "DELLIsptool_mac" */;
+			buildPhases = (
+				122399831C01C4DA00A6FBE5 /* Sources */,
+				122399841C01C4DA00A6FBE5 /* Frameworks */,
+				122399851C01C4DA00A6FBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DELLIsptool_mac;
+			productName = DELLIsptool_mac;
+			productReference = 122399871C01C4DA00A6FBE5 /* DELLIsptool_mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1223997F1C01C4DA00A6FBE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MNT-FW";
+				TargetAttributes = {
+					122399861C01C4DA00A6FBE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 122399821C01C4DA00A6FBE5 /* Build configuration list for PBXProject "DELLIsptool_mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				ja,
+				ru,
+				pt,
+				de,
+				es,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 1223997E1C01C4DA00A6FBE5;
+			productRefGroup = 122399881C01C4DA00A6FBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				122399861C01C4DA00A6FBE5 /* DELLIsptool_mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		122399851C01C4DA00A6FBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120AB9A31C166A29008566EC /* Informsg.png in Resources */,
+				1211B4CC1C02B3290050C522 /* closewin.png in Resources */,
+				122399AF1C01C5ED00A6FBE5 /* mac_Zoom1.png in Resources */,
+				1211B4D21C02BC180050C522 /* zoomwin_1.png in Resources */,
+				1211B4D41C02BC240050C522 /* helpwin_1.png in Resources */,
+				122399AB1C01C5ED00A6FBE5 /* mac_Close1.png in Resources */,
+				122399AC1C01C5ED00A6FBE5 /* mac_Infor1.png in Resources */,
+				12E790A21C252C6A006364E2 /* InfoPlist.strings in Resources */,
+				122399A61C01C5ED00A6FBE5 /* C3_spin_50_bluonwht.gif in Resources */,
+				12E7933B1C2535B6006364E2 /* Main.storyboard in Resources */,
+				1223998F1C01C4DA00A6FBE5 /* Assets.xcassets in Resources */,
+				122399A71C01C5ED00A6FBE5 /* C3_spin_50_bluonwht_transp.gif in Resources */,
+				122399AA1C01C5ED00A6FBE5 /* mac_Close.png in Resources */,
+				122399A51C01C5ED00A6FBE5 /* C3_spin_50_blu.png in Resources */,
+				120AB9A51C168480008566EC /* Errormsg.png in Resources */,
+				122399AE1C01C5ED00A6FBE5 /* mac_X1.png in Resources */,
+				122399AD1C01C5ED00A6FBE5 /* mac_Logo1.png in Resources */,
+				1211B4CA1C02B3150050C522 /* closewin_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122399831C01C4DA00A6FBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187FEC361C1EC34C00B35656 /* ISP.m in Sources */,
+				1223998B1C01C4DA00A6FBE5 /* AppDelegate.swift in Sources */,
+				1264C9221C0821A6000242E0 /* IspMsg.swift in Sources */,
+				187FEC341C1EC34C00B35656 /* HID PnP.m in Sources */,
+				187FEC351C1EC34C00B35656 /* hid_MACOSX.c in Sources */,
+				122CB06F1C0449A0008A48F4 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12E790A41C252C6A006364E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E790A51C252C6D006364E2 /* en */,
+				12E790A71C252CAF006364E2 /* fr */,
+				12E790A91C252F6F006364E2 /* fr */,
+				1297596A1C254918002473DF /* ja */,
+				1297596D1C254C7D002473DF /* ru */,
+				129759701C254F62002473DF /* pt */,
+				12CC0AA01C2551FD007AC5F2 /* de */,
+				12CC0AA31C2553E0007AC5F2 /* es */,
+				12CC0AA81C259447007AC5F2 /* zh-Hans */,
+				12CC0AA91C259473007AC5F2 /* zh-Hans */,
+				12CC0AAC1C2594B3007AC5F2 /* Base */,
+				12CC0AAE1C2594EA007AC5F2 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E793391C2535B6006364E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12746BA31C2545070082BB00 /* fr */,
+				1297596B1C254928002473DF /* ja */,
+				1297596E1C254C89002473DF /* ru */,
+				129759711C254F72002473DF /* pt */,
+				12CC0AA11C25521B007AC5F2 /* de */,
+				12CC0AA41C2553F7007AC5F2 /* es */,
+				12CC0AA71C259446007AC5F2 /* zh-Hans */,
+				12CC0AAA1C259474007AC5F2 /* zh-Hans */,
+				12CC0AAB1C259485007AC5F2 /* Base */,
+				12CC0AAD1C2594E9007AC5F2 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		122399941C01C4DA00A6FBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mnt-fw/Desktop/DELLIsptool_mac/DELLIsptool_mac/DELLIsptool_mac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		122399951C01C4DA00A6FBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mnt-fw/Desktop/DELLIsptool_mac/DELLIsptool_mac/DELLIsptool_mac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		122399971C01C4DA00A6FBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DELLIsptool_mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TPV.DELLIsptool-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DELLIsptool_mac/DELLIsptool_mac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		122399981C01C4DA00A6FBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DELLIsptool_mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TPV.DELLIsptool-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DELLIsptool_mac/DELLIsptool_mac-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		122399821C01C4DA00A6FBE5 /* Build configuration list for PBXProject "DELLIsptool_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122399941C01C4DA00A6FBE5 /* Debug */,
+				122399951C01C4DA00A6FBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122399961C01C4DA00A6FBE5 /* Build configuration list for PBXNativeTarget "DELLIsptool_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122399971C01C4DA00A6FBE5 /* Debug */,
+				122399981C01C4DA00A6FBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1223997F1C01C4DA00A6FBE5 /* Project object */;
+}

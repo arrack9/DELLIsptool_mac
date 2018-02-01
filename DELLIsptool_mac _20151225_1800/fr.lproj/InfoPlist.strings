@@ -1,0 +1,40 @@
+/* 
+  InfoPlist.strings
+  DELLIsptool_mac
+
+  Created by MNT-FW on 2015/12/19.
+  Copyright © 2015年 MNT-FW. All rights reserved.
+*/
+
+"File Path" = "Chemin du fichier";
+"Model No" = "Modèle n";
+"Current Firmware" = "Firmware actuel";
+"New Firmware" = "Nouveau firmware";
+"File Checksum" = "Checksum du fichier";
+"Update" = "Mettre à jour";
+"browse" = "Parcourir";
+
+"preparing monitor to update" = "Préparation du moniteur pour la mise à jour";
+"Erasing flash" = "Effacement flash";
+"Updateing" = "Mise à jour";
+"Verify update" = "Vérifier mise à jour";
+"Update Successful" = "Mise à jour réussie";
+
+"mDNormal" = "La mise à jour peut prendre plusieurs minutes, n'éteignez pas le moniteur et ne débranchez pas les câbles.";
+
+"mDetUSB" = "Moniteur non détecté. Vérifiez que le câble USB est connecté et que l'écran est sous tension. Voir Aide pour plus d'informations.";
+
+"mFileNotFound" = "Fichier de firmware introuvable. Ouvrez un fichier de firmware (*.bin) pour continuer.";
+
+"mUpdateNoted" = "Pour terminer la mise à jour, rebranchez le cordon d'alimentation et allumez le moniteur.";
+
+"mProgramFail" = "Erreur de protection en écriture. Fermez l'utilitaire de mise à jour du firmware du moniteur, éteignez le moniteur, rebranchez le cordon d'alimentation, allumez le moniteur et réessayez la mise à jour.";
+
+"mEraseFail" = "Erreur d'effacement flash. Fermez l'utilitaire de mise à jour du firmware du moniteur, éteignez le moniteur, rebranchez le cordon d'alimentation, allumez le moniteur et réessayez la mise à jour.";
+
+"mUpdateError" = "Erreur de mise à jour. Fermez l'utilitaire de mise à jour du firmware du moniteur, éteignez le moniteur, rebranchez le cordon d'alimentation, allumez le moniteur et réessayez la mise à jour.";
+
+"mCHKError" = "Erreur de checksum du firmware du moniteur. Fermez l'utilitaire de mise à jour du firmware du moniteur, éteignez le moniteur, rebranchez le cordon d'alimentation, allumez le moniteur et réessayez la mise à jour.";
+
+"mDefault" = "La mise à jour peut prendre plusieurs minutes, n'éteignez pas le moniteur et ne débranchez pas le câble lors de la mise à jour.";
+

@@ -1,0 +1,45 @@
+/* 
+  InfoPlist.strings
+  DELLIsptool_mac
+
+  Created /Users/mnt-fw/Desktop/DELLIsptool_mac _20151219_1800/DELLIsptool_mac/IspMsg.swiftby MNT-FW on 2015/12/19.
+  Copyright © 2015年 MNT-FW. All rights reserved.
+*/
+
+"File Path" = "File Path";
+"Model No" = "Model No";
+"Current Firmware" = "Current Firmware";
+"New Firmware" = "New Firmware";
+"File Checksum" = "File Checksum";
+"Update" = "Update";
+"browse" = "browse";
+
+"preparing monitor to update" = "Preparing monitor to update";
+"Erasing flash" = "Erasing flash";
+"Updateing" = "Updateing";
+"Verify update" = "Verify update";
+"Update Successful" = "Update Successful";
+
+"mDNormal" = "Update may take several minutes, do not power off monitor or disconnect cable while updating.";
+
+"mDetUSB" = "Monitor not detected. Ensure USB cable is connected and display is powered on. See Help for more information.";
+
+"mFileNotFound" = "Firmware file not found. Open firmware file (*.bin) to proceed.";
+
+"mUpdateNoted" = "To complete update, turn off monitor replug power cord, turn on monitor.";
+
+"mProgramFail" = "Write protection error. Close Monitor Firmware Update Utility, turn off monitor, replug power cord, turn on monitor and try updating again.";
+
+"mEraseFail" = "Flash erase error. Close Monitor Firmware Update Utility, turn off monitor, replug power cord, turn on monitor and try updating again.";
+
+"mUpdateError" = "Update error. Close Monitor Firmware Update Utility, turn off monitor, replug power cord, turn on monitor and try updating again.";
+
+"mCHKError" = "Monitor firmware checksum error. Close Monitor Firmware Update Utility, turn off monitor, replug power cord, turn on monitor and try updating again.";
+
+"mDefault" = "Update may take several minutes, do not power off monitor or disconnect cable while updating.";
+
+
+
+
+
+

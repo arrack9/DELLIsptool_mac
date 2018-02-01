@@ -1,0 +1,39 @@
+/* 
+  InfoPlist.strings
+  DELLIsptool_mac
+
+  Created by MNT-FW on 2015/12/19.
+  Copyright © 2015年 MNT-FW. All rights reserved.
+*/
+
+"File Path" = "文件路径";
+"Model No" = "型号";
+"Current Firmware" = "当前固件";
+"New Firmware" = "新固件";
+"File Checksum" = "文件校验和";
+"Update" = "更新";
+"browse" = "浏览";
+
+"preparing monitor to update" = "正在准备显示器更新";
+"Erasing flash" = "正在擦除闪存";
+"Updateing" = "正在更新";
+"Verify update" = "验证更新";
+"Update Successful" = "更新成功";
+
+"mDNormal" = "更新可能需要几分钟，请勿关闭显示器电源或断开线缆。";
+
+"mDetUSB" = "显示器未检测到。确保 USB 线已连接，显示屏已开机。请参阅帮助了解详情。";
+
+"mFileNotFound" = "固件文件未找到。请打开固件文件(*.bin) 继续。";
+
+"mUpdateNoted" = "要完成更新，请关闭显示器，重新插上电源线插头，打开显示器。";
+
+"mProgramFail" = "写保护错误。请关闭显示器固件更新实用程序，关闭显示器，重新插上电源线插头，打开显示器，然后再次更新。";
+
+"mEraseFail" = "闪存擦除错误。请关闭显示器固件更新实用程序，关闭显示器，重新插上电源线插头，打开显示器，然后再次更新。";
+
+"mUpdateError" = "更新错误。请关闭显示器固件更新实用程序，关闭显示器，重新插上电源线插头，打开显示器，然后再次更新。";
+
+"mCHKError" = "显示器固件校验和错误。请关闭显示器固件更新实用程序，关闭显示器，重新插上电源线插头，打开显示器，然后再次更新。";
+
+"mDefault" = "更新可能需要几分钟，更新时请勿关闭显示器电源或断开线缆。";

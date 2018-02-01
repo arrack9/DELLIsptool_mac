@@ -1,0 +1,39 @@
+/* 
+  InfoPlist.strings
+  DELLIsptool_mac
+
+  Created by MNT-FW on 2015/12/19.
+  Copyright © 2015年 MNT-FW. All rights reserved.
+*/
+
+"File Path" = "Dateipfad";
+"Model No" = "Modell Nr";
+"Current Firmware" = "Aktuelle Firmware";
+"New Firmware" = "Neue Firmware";
+"File Checksum" = "Dateiprüfsumme";
+"Update" = "Aktualisieren";
+"browse" = "durchsuchen";
+
+"preparing monitor to update" = "Monitor wird auf Aktualisierung vorbereitet";
+"Erasing flash" = "Flash wird gelöscht";
+"Updateing" = "Aktualisierung wird durchgeführt";
+"Verify update" = "Verify updaAktualisierung prüfen";
+"Update Successful" = "Erfolgreich aktualisiert";
+
+"mDNormal" = "Die Aktualisierung kann mehrere Minuten dauern; schalten Sie den Monitor nicht ab, ziehen Sie nicht die Kabel.";
+
+"mDetUSB" = "Monitor nicht erkannt. Stellen Sie sicher, dass das USB-Kabel angeschlossen und das Display eingeschaltet ist. Weitere Informationen finden Sie in der Hilfe.";
+
+"mFileNotFound" = "Firmware-Datei nicht gefunden. Zum Fortfahren die Firmware-Datei (*.bin) öffnen.";
+
+"mUpdateNoted" = "Zum Abschließen der Aktualisierung Monitor ausschalten, Netzkabel wieder anschließen, Monitor einschalten.";
+
+"mProgramFail" = "Schreibschutzfehler. Monitor-Firmware-Aktualisierungsprogramm schließen, Monitor abschalten, Netzkabel erneut anschließen, Monitor einschalten und Aktualisierung noch einmal versuchen.";
+
+"mEraseFail" = "Fehler beim Löschen des Flash-Speichers. Monitor-Firmware-Aktualisierungsprogramm schließen, Monitor ausschalten, Netzkabel erneut anschließen, Monitor einschalten und Aktualisierung noch einmal versuchen.";
+
+"mUpdateError" = "Aktualisierungsfehler. Monitor-Firmware-Aktualisierungsprogramm schließen, Monitor ausschalten, Netzkabel erneut anschließen, Monitor einschalten und Aktualisierung noch einmal versuchen.";
+
+"mCHKError" = "Fehler bei der Monitor-Firmware-Prüfsumme. Monitor-Firmware-Aktualisierungsprogramm schließen, Monitor ausschalten, Netzkabel erneut anschließen, Monitor einschalten und Aktualisierung noch einmal versuchen.";
+
+"mDefault" = "Die Aktualisierung kann mehrere Minuten dauern; während der Aktualisierung dürfen Sie weder den Monitor abschalten noch Kabel trennen.";

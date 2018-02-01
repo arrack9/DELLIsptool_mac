@@ -1,0 +1,40 @@
+/* 
+  InfoPlist.strings
+  DELLIsptool_mac
+
+  Created by MNT-FW on 2015/12/19.
+  Copyright © 2015年 MNT-FW. All rights reserved.
+*/
+
+"File Path" = "Ruta de acceso de archivos";
+"Model No" = "Modelo N °";
+"Current Firmware" = "Firmware actual";
+"New Firmware" = "Nuevo firmware";
+"File Checksum" = "Suma de comprobación del archivo";
+"Update" = "Actualizar";
+"browse" = "examinar";
+
+"preparing monitor to update" = "Preparando el monitor para actualizar";
+"Erasing flash" = "Borrando flash";
+"Updateing" = "Actualizando";
+"Verify update" = "Comprobar actualización";
+"Update Successful" = "Actualización correcta";
+
+"mDNormal" = "La actualización puede tardar varios minutos. No apague el monitor ni desconecte el cable durante la misma.";
+
+"mDetUSB" = "Monitor no detectado. Asegúrese de que el cable USB está conectado y la pantalla está encendida. Consulte la ayuda para obtener más información.";
+
+"mFileNotFound" = "Archivo de firmware no encontrado. Abra el archivo de firmware (*.bin) para continuar.";
+
+"mUpdateNoted" = "Para completar la actualización, apague el monitor, vuelva a enchufar el cable de alimentación y, por último, encienda el monitor.";
+
+"mProgramFail" = "Error de protección de escritura. Cierre la Utilidad de actualización de firmware del monitor, apague el monitor, vuelva a enchufar el cable de alimentación, encienda el monitor y, por último, vuelva a realizar la actualización.";
+
+"mEraseFail" = "Error en el borrador de la memoria flash. Cierre la Utilidad de actualización de firmware del monitor, apague el monitor, vuelva a enchufar el cable de alimentación, encienda el monitor y, por último, vuelva a realizar la actualización.";
+
+"mUpdateError" = "Error de actualización. Cierre la Utilidad de actualización de firmware del monitor, apague el monitor, vuelva a enchufar el cable de alimentación, encienda el monitor y, por último, vuelva a realizar la actualización.";
+
+"mCHKError" = "Error de suma de comprobación del firmware del monitor. Cierre la Utilidad de actualización de firmware del monitor, apague el monitor, vuelva a enchufar el cable de alimentación, encienda el monitor y, por último, vuelva a realizar la actualización.";
+
+"mDefault" = "La actualización puede tardar varios minutos. No apague el monitor ni desconecte el cable durante la misma.";
+
