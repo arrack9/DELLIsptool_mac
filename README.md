@@ -1,2 +1,2 @@
 # DELLIsptool_mac
-Upgrade FW tools for mac iOS
+Upgrade monitor FW tools for mac iOS
